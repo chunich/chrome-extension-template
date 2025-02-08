@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            body { margin: 0; }
+            input[type='checkbox'] { margin: 10px; }
+            label { cursor: pointer; }
+            label:hover { text-decoration: underline; }
+            .panel {
+                width: 500px; 
+                background: #333;
+                border: solid 2px #555; 
+                color: white;
+                font-size: 18px;
+                padding: 0.5em;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="panel">
+            <fieldset>
+                <legend>Request Filtering Options</legend>
+                <div>
+                    <input type="checkbox" name="PAUSE ALL" id="global_pause">
+                    <label for="global_pause">PAUSE ALL</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="Show Errors Only" id="errors_only">
+                    <label for="errors_only">Show ERRORS only</label></td>
+                </div>
+                <div>
+                    <input type="checkbox" name="Hide images" id="hide_images">
+                    <label for="hide_images">Hide IMAGES</label></td>
+                </div>
+                <div>
+                    <input type="checkbox" name="Hide OPTIONS" id="hide_options">
+                    <label for="hide_options">Hide OPTIONS</label></td>
+                </div>
+                <div>
+                    <input type="checkbox" name="Hide smetrics" id="hide_smetrics">
+                    <label for="hide_smetrics">Hide smetrics</label></td>
+                </div>
+            </fieldset>
+        </div>
+    </body>
+    <script src="popup.js"></script>
+</html>

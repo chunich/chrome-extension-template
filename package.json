@@ -1,0 +1,27 @@
+{
+  "name": "web-lens",
+  "version": "1.0.0",
+  "description": "Chrome extension that intercepts and evaluate network requests for redbox.com traffic",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.redbox.com:web/web-lens.git"
+  },
+  "keywords": [
+    "chrome",
+    "javascript",
+    "extension"
+  ],
+  "author": "Nicholas Chu",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}

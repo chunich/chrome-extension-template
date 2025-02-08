@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      body { font-family: monospace; font-size: 12px; background-color: #060208; color: white; }
+      img { max-height: 150px; box-shadow: white 0px 0px 10px -2px; }
+      pre { padding: 2px; overflow: scroll; margin: 0.5em 0.2em }
+      pre.body { background: #334455; }
+      pre.url.body { margin-left: 3px; }
+      .head { }
+      .result { text-overflow: ellipsis; overflow: hidden; padding: 1px; }
+      .result.options { color: #555; }
+      .image-wrapper { display: flex; align-items: center; }
+      .image-wrapper-attr { border: solid 2px; font-size: 1.1em; padding: 10px; margin-left: 10px; position: absolute; background: black; opacity: 0.7; }
+      .error { color: red; }
+      .page { color: green; border: solid 1px; padding: 5px 0; }
+      .html { color: green; border: solid 1px; }
+      #clearAll { position: fixed; opacity: 0.5; right: 0; border: solid 2px; border-radius: 15px; padding: 10px; background: beige; width: 25%;  }
+      #clearAll:hover { opacity: 1; }
+    </style>
+  </head>
+  <body>
+    <button id="clearAll">CLEAR ALL</button>
+    <span id="youClickedOn"></span>
+    <div id="results" style="white-space: nowrap;"></div>
+  </body>
+</html>
